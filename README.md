@@ -1,6 +1,21 @@
 # AI-video-automation
 Pipeline automatizado desarrollado en Python para generación de videos cortos utilizando herramientas de inteligencia artificial.
 
+Estructura:
+Script
+   ↓
+Scene Extraction
+   ↓
+Prompt Generation (OpenAI API)
+   ↓
+AI Image Generation
+   ↓
+Voice Synthesis (Edge TTS)
+   ↓
+Video Composition (MoviePy)
+   ↓
+Final Short Video
+
 El sistema automatiza:
 Generación de imágenes mediante APIs de IA,
 Síntesis de voz,
